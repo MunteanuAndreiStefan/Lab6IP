@@ -7,7 +7,7 @@ public class Audio implements Recognition {
 
     @Override
     public Logger analyzeInput(File file) {
-        String randomValue = String.valueOf(Math.random()+100);
+        String randomValue = String.valueOf(100);
         Logger logger = new Logger(randomValue);
         logger.writeInto("AudioLogger");
         return logger;
