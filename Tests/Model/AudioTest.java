@@ -1,7 +1,8 @@
 package Model;
 
-import org.junit.Test;
-import org.junit.internal.runners.statements.Fail;
+import Recognition.Text;
+import Utils.Logger;
+import org.junit.*;
 
 import java.io.FileNotFoundException;
 
@@ -23,5 +24,47 @@ public class AudioTest {
     @Test
     public void getType()  {
         assertEquals("Auditiv",audio.getType());
+    }
+
+    /**
+     *
+     * @author klaus
+     */
+    public static class TextTest {
+
+        public TextTest() {
+        }
+
+        @BeforeClass
+        public static void setUpClass() {
+        }
+
+        @AfterClass
+        public static void tearDownClass() {
+        }
+
+        @Before
+        public void setUp() {
+        }
+
+        @After
+        public void tearDown() {
+        }
+
+        /**
+         * Test of analyzeInput method, of class Text.
+         */
+        @Test
+        public void testAnalyzeInput() {
+            System.out.println("analyzeInput");
+            File file = null;
+            Text instance = new Text();
+            Logger expResult = null;
+            Logger result = instance.analyzeInput(file);
+            assertEquals(expResult, result);
+            // TODO review the generated test code and remove the default call to fail.
+            fail("The test case is a prototype.");
+        }
+
     }
 }
