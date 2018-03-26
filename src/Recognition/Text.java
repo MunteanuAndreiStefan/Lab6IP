@@ -1,6 +1,6 @@
 package Recognition;
 
-import Utils.File;
+import Model.File;
 import Utils.Logger;
 
 public class Text implements Recognition {

@@ -1,5 +1,5 @@
 import Recognition.Recognition;
-import Utils.File;
+import Model.File;
 
 public class Brain {
 
@@ -7,7 +7,7 @@ public class Brain {
         System.out.println("Brain was created");
     }
 
-    public static void Analyze (File file) throws IllegalAccessException, InstantiationException
+    public static void Analyze (File file) throws IllegalAccessException, InstantiationException, ClassNotFoundException
     {
         Recognition rec = null;
 
