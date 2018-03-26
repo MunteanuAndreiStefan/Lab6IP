@@ -1,4 +1,4 @@
-Laboratory problem:
+Laboratory problem: https://profs.info.uaic.ro/~adiftene/Scoala/2018/IP/Laboratoare/Lab06.pdf
 
 Roles:
 Munteanu Andrei-Stefan - Developer, Scrum master.
