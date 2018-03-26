@@ -1,6 +1,6 @@
 package Recognition;
 
-import Utils.File;
+import Model.File;
 import Utils.Logger;
 import sun.rmi.runtime.Log;
 
