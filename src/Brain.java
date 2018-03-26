@@ -1,8 +1,5 @@
-import Utils.File;
 import Recognition.Recognition;
-
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
+import Utils.File;
 
 public class Brain {
 
@@ -10,7 +7,8 @@ public class Brain {
         System.out.println("Brain was created");
     }
 
-    public static void Analyze (File file){
+    public static void Analyze (File file) throws IllegalAccessException, InstantiationException
+    {
         Recognition rec = null;
 
         Class calledClass = Class.forName("Utils."+file.getType()); //get class
