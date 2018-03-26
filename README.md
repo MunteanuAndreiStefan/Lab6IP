@@ -1,15 +1,23 @@
 Laboratory problem:
 
 Roles:
-Munteanu Andrei-Stefan - Developer, BA and product owner.
-Zaharia Raul - Developer, Scrum master
-Ninicu Cristian - Developer 
-Ouatu Bogdan - Developer, Tester
-Ghiga Claudiu - Developer, Tester
-Costandache Andrei - Developer, Tester
-Marcu Alexandru - Tester
-Silistru Alex - Tester
-Dodu Emanuel - Tester
+Munteanu Andrei-Stefan - Developer, Scrum master.
+
+Zaharia Raul - Developer
+
+Ninicu Cristian - Developer.
+
+Ouatu Bogdan - Developer, Tester.
+
+Ghiga Claudiu - Developer, Tester.
+
+Costandache Andrei - Developer, Tester.
+
+Marcu Alexandru - Tester.
+
+Silistru Alex - Tester.
+
+Dodu Emanuel - Tester.
 
 # Lab6IP
 
