@@ -4,15 +4,15 @@ import Model.File;
 import Model.Image;
 
 public class Upload {
-    Upload(){
+    public Upload(){
 
     }
-    String getImage(){
+    public String getImage(){
         File image = new Image();
         return image.getPath();
     }
 
-    String getAudio(){
+    public String getAudio(){
         File audio = new Audio();
         return audio.getPath();
     }
