@@ -31,8 +31,9 @@ public class AudioTest {
      * @author klaus
      */
     public static class TextTest {
-
+    Text text= new Text();
         public TextTest() {
+
         }
 
         @BeforeClass
